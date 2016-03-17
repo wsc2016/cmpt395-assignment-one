@@ -102,6 +102,12 @@ http://wiki.ros.org/ROS/Tutorials
 I will attempt to work through some of these tutorials in the next few posts.
 
 
+
+
+
+
+
+<hr>
 `Artifact 2`
 
 NOTE:  Remember that error I encountered during installation?  I could not find any relevant information on this error at ROS Answers (http://answers.ros.org) but I did find a solution when I Googled it:
