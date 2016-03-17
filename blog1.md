@@ -2,7 +2,7 @@
 
 From their website @ ROS.org:    
 
->“The Robot Operating System (ROS) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behaviour across a wide variety of robotic platforms.”     
+>The Robot Operating System (ROS) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behaviour across a wide variety of robotic platforms.     
 
 
 I am choosing to install ROS because I have an interest in automated devices.  From personal drones and manufacturing tools to the internet of things(IoT), a robust robot operating system will become more commonly required by a growing number of industries worldwide.    
@@ -90,7 +90,7 @@ I am not sure if I will ever need it, but I went ahead and installed **rosinstal
 
 
 
-That is it for the installation process.  The instructions now suggest we venture on over to  another set of instructions entitled “Tutorials”.
+That is it for the installation process.  The instructions now suggest we venture on over to another set of instructions entitled “Tutorials”.
 
 ```
 http://wiki.ros.org/ROS/Tutorials
