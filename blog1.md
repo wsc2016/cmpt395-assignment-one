@@ -1,5 +1,8 @@
 # Installing ROS(Robot Operating System)
 
+`Artifact 1`
+
+
 From their website @ ROS.org:    
 
 >The Robot Operating System (ROS) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behaviour across a wide variety of robotic platforms.     
@@ -97,3 +100,41 @@ http://wiki.ros.org/ROS/Tutorials
 ```
 
 I will attempt to work through some of these tutorials in the next few posts.
+
+
+`Artifact 2`
+
+NOTE:  Remember that error I encountered during installation?  I could not find any relevant information on this error at ROS Answers (http://answers.ros.org) but I did find a solution when I Googled it:
+
+The error occurs when updating apt in 64-bit systems because Google dropped support for the 32-bit version of Chrome on Linux and this isn’t reflected in our current sources.list file.
+
+We simply need to modify this file to eliminate the error:
+
+1) Open a Terminal window and run:
+
+```
+sudo gedit /etc/apt/sources.list.d/google-chrome.list
+```
+
+2) Edit the text file that pops up so that the first uncommented line reads:
+
+```
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+```
+
+3) Save the file and close the gedit window.
+
+4) Return to Terminal and refresh the package list:
+
+```
+sudo apt-get update
+```
+
+The **Failed To Fetch** error is now resolved:
+
+![Screen8](https://raw.githubusercontent.com/wsc2016/cmpt395-assignment-one/master/images/screen8.png) 
+
+I have attempted to register on the wiki to edit the installation instructions to add the above fix to the error I encountered but I am currently waiting for approval to be added to the wiki whitelist:
+
+![Label1](https://raw.githubusercontent.com/wsc2016/cmpt395-assignment-one/master/images/label1.png) 
+
