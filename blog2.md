@@ -29,7 +29,7 @@ My first inclination was to see what directory is in the ROS_PACKAGE_PATH variab
 echo $ROS_PACKAGE_PATH
 ```
 
-I then checked to see if my package could be found by ROS and it told it was not able to.
+I then checked to see if my package could be found by ROS and it told me it was not able to.
 
 ![Scr2](https://raw.githubusercontent.com/wsc2016/cmpt395-assignment-one/master/images/scr2.png)
 
