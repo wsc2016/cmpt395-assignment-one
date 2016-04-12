@@ -13,7 +13,7 @@ The tutorial offers two methods for creating packages but I arbitrarily chose to
 
 ![Scr4](https://raw.githubusercontent.com/wsc2016/cmpt395-assignment-one/master/images/scr4.png)
   
-Our first step in creating an ROS package is navigating to our home directory.  Our package will depend on common ROS pacakages such as std_msgs, roscpp, and rospy so all we have to do type in the following command:
+Our first step in creating an ROS package is navigating to our home directory.  Our custom package will depend on common ROS packages such as std_msgs, roscpp, and rospy so all we have to do type in the following command:
 
 ```
 roscreate-pkg beginner_tutorials std_msgs rospy roscpp
