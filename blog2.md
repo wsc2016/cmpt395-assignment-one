@@ -111,7 +111,7 @@ To finish creating my package, I need to change over to my sandbox directory:
 cd ~/jade_workspace/sandbox
 ```
 
-I try to create my package again and I am still getting that same error!
+I try to create my package again and I am still getting that same warning!
 
 ![Scr10](https://raw.githubusercontent.com/wsc2016/cmpt395-assignment-one/master/images/scr10.png)
 
